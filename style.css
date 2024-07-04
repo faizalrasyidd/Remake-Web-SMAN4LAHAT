@@ -297,7 +297,7 @@ nav li .dropdown-menu :hover {
 
   .custom-nav {
     height: 50px;
-    width: 65%;
+    width: 100%;
     z-index: 9999999912;
   }
 
