@@ -311,6 +311,12 @@ nav li .dropdown-menu :hover {
     background-color: #096b84;
   }
 
+  .navbar-toggler-icon {
+    position: absolute;
+    right: 10%;
+    top: 15%;
+  }
+
   /* Hero */
   #hero {
     width: 100%;
@@ -403,19 +409,72 @@ nav li .dropdown-menu :hover {
 }
 
 @media screen and (max-width: 450px) {
-  #hero,
-  nav,
-  .custom-nav,
-  main,
-  footer {
+  #kosong {
     display: none;
   }
 
-  #kosong {
-    display: block;
+  /* Navbar */
+
+  .custom-nav {
+    background-color: #096b84;
   }
 
-  body {
-    background-color: #333;
+  .custom-nav {
+    height: 50px;
+    width: 100%;
+    z-index: 9999999912;
+  }
+
+  .navbar-toggler-icon {
+    position: absolute;
+    right: 10%;
+    top: 15%;
+    color: white;
+  }
+
+  nav #navbarSupportedContent {
+    background-color: #096b84;
+  }
+
+  /* sekolah */
+  #sekolah #sosmed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* BANNER */
+  #banner span {
+    z-index: 4;
+  }
+
+  #banner span p {
+    position: absolute;
+    z-index: 3;
+    top: 45%;
+    left: 10%;
+  }
+
+  /* BERITA */
+
+  #berita .row .col-lg-4 img {
+    cursor: pointer;
+    width: 100%;
+  }
+
+  #berita .row .col-lg-4 #img-1 a {
+    top: 62%;
+    left: 10%;
+    width: 50%;
+  }
+  #berita .row .col-lg-4 #img-2 a {
+    top: 92%;
+    left: 10%;
+    width: 45%;
+  }
+
+  /* rangkuman */
+  #rangkuman img {
+    width: 60%;
   }
 }
